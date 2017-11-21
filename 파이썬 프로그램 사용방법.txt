@@ -1,0 +1,35 @@
+파이썬 설치 (3.5 버전)
+https://wikidocs.net/8
+
+pip 설치 (파이썬의 패키지 매니저)
+http://www.bearpooh.com/8
+
+그후 cmd 창에
+pip install selenium
+pip install bs4
+
+입력해서 각각 프로그램 설치
+
+
+그다음 크롬 웹드라이버 설치
+https://beomi.github.io/2017/02/27/HowToMakeWebCrawler-With-Selenium/
+
+(다운로드 받은 경로를 확실하게 기억할 것)
+
+
+★★★★★★★
+파이썬 프로그램을 본인의 컴퓨터 상황에 맞게 고쳐야함
+selenium_web_crawling.py 파일을 메모장으로 열어서
+'중요!'라고 써놓은 부분을 잘 읽어서 본인 컴퓨터에 맞게 수정하기
+
+그리고 유저 정보 메모장과 소식 메모장 파일들이 있어야함
+유저 정보 메모장과 소식 메모장 파일 작성 예시를 그대로 따라야함 (아니면 에러남)
+
+
+마지막으로 해당 프로그램을 실행시키기 위해서는
+
+cmd 창에서 파이썬 프로그램이 있는 폴더에가서
+
+python selenium_web_crawling.py
+
+라고 쳐주면 됨
